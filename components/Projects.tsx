@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 
-export const Projects = ({image,link,title}) => {
+export const Projects = ({image,link,title}:ProjectProps) => {
     const [isHovered, setIsHovered] = useState(false);
   return (
     <>
