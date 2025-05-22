@@ -2,6 +2,11 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { motion } from 'framer-motion';
+  interface ProjectProps {
+  image: string; // Assuming 'image' is a URL (string)
+  link: string;  // Assuming 'link' is a URL (string)
+  title: string; // Assuming 'title' is a string
+}
 
 export const Projects = ({image,link,title}:ProjectProps) => {
     const [isHovered, setIsHovered] = useState(false);
