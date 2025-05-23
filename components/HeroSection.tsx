@@ -8,11 +8,7 @@ import { AnimatePresence , motion} from 'framer-motion'
 
 
 export const HeroSection = () => {
-  interface ProjectProps {
-  image: string; // Assuming 'image' is a URL (string)
-  link: string;  // Assuming 'link' is a URL (string)
-  title: string; // Assuming 'title' is a string
-}
+
   const images =[{
     id:1,
     imageUrl:"/dogSite.jpg",
