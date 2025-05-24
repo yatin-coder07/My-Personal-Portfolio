@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
   link: string;  // Assuming 'link' is a URL (string)
   title: string; // Assuming 'title' is a string
 }//hey this is my portfolio
+//this is my portfolio
 
 export const Projects = ({image,link,title}:ProjectProps) => {
     const [isHovered, setIsHovered] = useState(false);
